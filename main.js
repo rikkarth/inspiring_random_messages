@@ -27,7 +27,7 @@ const inspiring_message = [
     'Age is of no importance unless you’re a cheese.',
     'The trouble with having an open mind, of course, is that people will insist on coming along and trying to put things in it.',
     'By working faithfully eight hours a day you may eventually get to be boss and work twelve hours a day.',
-    'Women who seek to be equal with men lack ambition.',
+    'Women who seek to be equal with men, lack ambition.',
     'Nothing is impossible, the word itself says “I’m possible!',
     'A diamond is merely a lump of coal that did well under pressure.',
     'Opportunity is missed by most people because it is dressed in overalls and looks like work.',
@@ -36,3 +36,9 @@ const inspiring_message = [
 let random_message_position = Math.floor(Math.random()*inspiring_message.length);
 // The console log bellow aims to check the legitimacy of the array random number cycle.
 //console.log(random_message_position);
+const random_inspiring_message = inspiring_message[random_message_position];
+
+
+console.log("\n" + ('='.repeat(random_inspiring_message.length)));
+console.log(random_inspiring_message);
+console.log(('='.repeat(random_inspiring_message.length)));
