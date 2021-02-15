@@ -33,12 +33,29 @@ const inspiring_message = [
     'Opportunity is missed by most people because it is dressed in overalls and looks like work.',
 ];
 
+/*=======================[Start of: one random sentence from Array]=================================*/
+
+/*===========================[Calculates random Index in Array]=====================================*/
 let random_message_position = Math.floor(Math.random()*inspiring_message.length);
 // The console log bellow aims to check the legitimacy of the array random number cycle.
 //console.log(random_message_position);
 const random_inspiring_message = inspiring_message[random_message_position];
+/*==================================================================================================*/
 
-
+/*======================[Prints random output message]==============================================*/
 console.log("\n" + ('='.repeat(random_inspiring_message.length)));
 console.log(random_inspiring_message);
 console.log(('='.repeat(random_inspiring_message.length)));
+/*==================================================================================================*/
+
+/*==============================[END]===============================================================*/
+
+/*===============[Start of: Three random sentences from Array]======================================*/
+for(i = 0; i < 3; i++){
+    let random_message_position = Math.floor(Math.random()*inspiring_message.length);
+    const random_inspiring_message = inspiring_message[random_message_position];
+    console.log("\n" + ('='.repeat(random_inspiring_message.length)));
+    console.log(random_inspiring_message);
+    console.log(('='.repeat(random_inspiring_message.length)));
+};
+/*==============================[END]===============================================================*/
