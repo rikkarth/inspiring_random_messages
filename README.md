@@ -1,2 +1,2 @@
-# mixed_messages
-portfolio solo project
+# inspiring_messages
+## This projects aims to create an array of multiple different inspiring messages, displaying a different output from a pool of previously selected messages to the user who runs this program.
